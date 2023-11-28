@@ -4,6 +4,7 @@ Alright, this repository tracks my journey through Aditya Y. Bhargava's book ðŸ“
 But before diving into that, let me give you a quick lowdown on what this book's all about. Ready to join me on this adventure into the world of algorithms and code?
 
 **GROKKING ALGORITHMS BY ADITYA Y. BHARGAVA**
+
 This book is especially designed for novices and curious individuals. It's easy to understand as it simplifies technical expressions. Within this book, you'll find basic programming algorithms 
 like Binary Search, Big O notation, Selection Sort, and many more. Don't worry if those sound unfamiliar I can showcase my own application within this repository.
 
