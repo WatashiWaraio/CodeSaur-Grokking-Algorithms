@@ -40,7 +40,7 @@ so again, Why 7?,  if you calculate the logarithm base 2 of 128 using a calculat
 This means that in binary search, when you repeatedly divide the search space by half, you can find an element within a sorted list of 128 
 items in a maximum of 7 steps. Binary search operates by continually halving the search space, making it incredibly efficient in finding elements, especially in large datasets.
 
-Please review the basic functionality in my codes, most of which were derived from the book on BinarySearch-CODES-rauw
+Please review the basic functionality in my codes, most of which were derived from the book on BinarySearch 🦕🦕
 
 
 
