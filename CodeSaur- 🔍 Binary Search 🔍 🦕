@@ -21,6 +21,28 @@ Yes.
 
 I know this is a stupid definition but like this its more simple to understand.
 
+When we use an algorithm, time is crucial because we generally aim to select the most efficient, fastest, and incredible algorithm available.
+In the context of the question presented in the book, suppose you have a sorted list of 128 names and you're using binary search to find an element. What's the maximum number of steps it would take?
+It's easy because in binary search, logarithms play a crucial role. Logarithms often emerge when analyzing algorithms, indicating how the time or space complexity grows in relation to the input size. 
+For algorithms like binary search or certain tree operations, the time complexity is often represented as O(log n). This logarithmic time complexity signifies an algorithm that swiftly locates an element 
+in a sorted dataset by continuously dividing the search space in half. So, what's the maximum number of steps required to search through a sorted list of 128 names using binary search?
+
+It would take 7 steps. Why? Because Imagine you have a super special machine that can magically shrink things. Let's say you have a number, like 100, and you want to shrink it down to 1 using this machine.
+How many times do you need to shrink 100 to get 1?
+That's where logarithms come in! Logarithms tell you how many times you need to shrink a number to get to another number using a specific "shrinking factor" or a "shrinkage rate."
+It's like asking, "What power do I need to raise a certain number to, to get another number?"
+For example, if you start with 10 and want to shrink it down to 1, you'd need to shrink it 1 time (10 ÷ 10 = 1). So, the logarithm base 10 of 1 is 1.
+But if you start with 100 and want to shrink it down to 1, you'd need to shrink it 2 times (100 ÷ 10 = 10, then 10 ÷ 10 = 1). So, the logarithm base 10 of 1 is 2.
+Logarithms help us understand how many times we need to do a certain operation (like division or multiplication) to get from one number to another. 
+They're like reverse math operations that tell us how many times we've multiplied or divided to reach a particular number from another.
+
+so again, Why 7?,  if you calculate the logarithm base 2 of 128 using a calculator, the result is seven.
+This means that in binary search, when you repeatedly divide the search space by half, you can find an element within a sorted list of 128 
+items in a maximum of 7 steps. Binary search operates by continually halving the search space, making it incredibly efficient in finding elements, especially in large datasets.
+
+Please review the basic functionality in my codes, most of which were derived from the book on BinarySearch-CODES-rauw
+
+
 
 
 
