@@ -1,35 +1,35 @@
 🔍 BINARY SEARCH 🔍
 
 This algorithm is akin to a conversation, like a riddle game. The binary search is more effective than a linear search.
-WHY? 
-I'll provide an example.
+WHY? 🥱
+I'll provide an example. 👀
 
-My university has numerous students, and I aim to find the best computer science student. However, I have extensive records for many individuals. 
-I begin with the name of the career (Computer Science) as my starting point. 
-I'll search among the computer science students, but I only possess the ID for this individual. 
+My university 🏢 has numerous students , and I aim to find the best computer science student. However, I have extensive records for many individuals. 
+I begin with the name of the career (Computer Science 👨‍💻) as my starting point. 
+I'll search  among the computer science students, but I only possess the ID for this individual. 🌱 
 Once I have isolated the computer science students, I'll commence searching by ID. However, in our records, we have 2,000 students. 
-Doing a linear search in this scenario is quite cumbersome.
+Doing a linear search in this scenario is quite cumbersome. 
 
-Therefore, it's similar to using a dictionary because I know the ID of the best computer science student is 1,290.
+Therefore, it's similar to using a dictionary because I know the ID of the best computer science student is 1,290. 
 
 Is this student in the range of 1 to 1,000?
-No.
+No. ❌
 
 Is this student in the range of 1,400 to 2,000?
-No.
+No. ❌
 
 Is this student in the range of 1,200 to 1,300?
-Yes.
+Yes. ✔️
 
-I know this is a stupid definition but like this its more simple to understand.
+I know this is a stupid definition but like this its more simple to understand. 🚀
 
 When we use an algorithm, time is crucial because we generally aim to select the most efficient, fastest, and incredible algorithm available.
 In the context of the question presented in the book, suppose you have a sorted list of 128 names and you're using binary search to find an element. What's the maximum number of steps it would take?
 It's easy because in binary search, logarithms play a crucial role. Logarithms often emerge when analyzing algorithms, indicating how the time or space complexity grows in relation to the input size. 
 For algorithms like binary search or certain tree operations, the time complexity is often represented as O(log n). This logarithmic time complexity signifies an algorithm that swiftly locates an element 
-in a sorted dataset by continuously dividing the search space in half. So, what's the maximum number of steps required to search through a sorted list of 128 names using binary search?
+in a sorted dataset by continuously dividing the search space in half. So, what's the maximum number of steps required to search through a sorted list of 128 names using binary search?  🔍
 
-It would take 7 steps. Why? Because Imagine you have a super special machine that can magically shrink things. Let's say you have a number, like 100, and you want to shrink it down to 1 using this machine.
+It would take 7 steps. Why? Because Imagine 🧠 you have a super special machine that can magically shrink things. Let's say you have a number, like 100, and you want to shrink it down to 1 using this machine ⬛.
 How many times do you need to shrink 100 to get 1?
 That's where logarithms come in! Logarithms tell you how many times you need to shrink a number to get to another number using a specific "shrinking factor" or a "shrinkage rate."
 It's like asking, "What power do I need to raise a certain number to, to get another number?"
