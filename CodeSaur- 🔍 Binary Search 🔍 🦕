@@ -4,8 +4,10 @@ This algorithm is akin to a conversation, like a riddle game. The binary search 
 WHY? 
 I'll provide an example.
 
-My university has numerous students, and I aim to find the best computer science student. However, I have extensive records for many individuals. I begin with the name of the career (Computer Science) as my starting point. 
-I'll search among the computer science students, but I only possess the ID for this individual. Once I have isolated the computer science students, I'll commence searching by ID. However, in our records, we have 2,000 students. 
+My university has numerous students, and I aim to find the best computer science student. However, I have extensive records for many individuals. 
+I begin with the name of the career (Computer Science) as my starting point. 
+I'll search among the computer science students, but I only possess the ID for this individual. 
+Once I have isolated the computer science students, I'll commence searching by ID. However, in our records, we have 2,000 students. 
 Doing a linear search in this scenario is quite cumbersome.
 
 Therefore, it's similar to using a dictionary because I know the ID of the best computer science student is 1,290.
